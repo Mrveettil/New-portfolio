@@ -1,0 +1,43 @@
+{
+  "name": "digitalboost-marketing-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive digital marketing agency website built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "live-server --port=8000 --open=/index.html",
+    "build": "echo 'No build process required for static site'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "digital-marketing",
+    "website",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "seo",
+    "ppc",
+    "social-media",
+    "marketing-agency"
+  ],
+  "author": "DigitalBoost Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalboost/marketing-website.git"
+  },
+  "homepage": "https://digitalboost.com",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
